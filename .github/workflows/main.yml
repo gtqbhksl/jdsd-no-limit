@@ -1,0 +1,17 @@
+name: jdsd—no-limit
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  Run-jdsd-on-Windows:
+    name: Run jdsd on Windows
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: JDSD
+        shell: pwsh
+        run: |
+          .\jdsd_no_limit.exe
