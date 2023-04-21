@@ -2,8 +2,8 @@ name: jdsd—no-limit
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
+  schedule:
+    - cron:  30 00 * * *  
 
 jobs:
   Run-jdsd-on-Windows:
