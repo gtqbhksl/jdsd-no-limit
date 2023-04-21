@@ -10,6 +10,7 @@ jobs:
     name: Run jdsd on Windows
     runs-on: windows-latest
     steps:
+      - uses: actions/checkout@v3
       - name: JDSD
         shell: pwsh
         run: |
