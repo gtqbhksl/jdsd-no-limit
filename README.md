@@ -1,6 +1,8 @@
 # 使用说明
 利用GitHub工作流每天定时执行**无限制版经典诵读**
 
+![](微信截图_20230421211814.png)
+
 新建一个私人仓库（private），然后import code这个仓库 https://github.com/shehuiniwangge/jdsd-no-limit.git 的代码
 
 将key放到config.json里面即可（没有简单的方法获取key值，只能抓包了，可以找会的同学帮忙
